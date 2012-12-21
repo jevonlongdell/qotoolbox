@@ -1,0 +1,77 @@
+QUANTUM OPTICS TOOLBOX FOR MATLAB 5
+===================================
+
+This is a toolbox of routines for solving quantum mechanics problems in spaces
+with moderately low dimensions. Besides the M files, it is necessary to install 
+some programmes which carry out numerical integration.
+
+Installation for IBM/PC Systems
+-------------------------------
+1. The archive should have been unpacked into the current directory, which 
+    will be taken to be \qotoolbox in the following instructions.
+
+2. Copy the files solvemc.bat, solvesde.bat, stochsim.bat and the associated
+    executable files _solvemc.exe, _solvesde.exe and _stochsim.exe from the
+    \qotoolbox\bin directory to some directory which is on the system path.
+
+3. Start Matlab and append the toolbox directory and the examples subdirectory
+    to the Matlab path. e.g.,
+
+    >> addpath('\qotoolbox');
+    >> addpath('\qotoolbox\examples');
+
+   If you want the toolbox to be available each time Matlab is started, these
+    lines should be in the user's or in the system's startup file 
+    $MATLABDIR\toolbox\local\pathdef.m
+
+4. Documentation is in the file doc/qouserguide.pdf
+
+5. Try out the demonstration files by going into some working directory and
+    entering
+
+    >> qdemos
+
+Installation for Unix Systems
+-----------------------------
+1. The .tgz file should have been unpacked into the current directory, which
+    will be taken to be /home/mydir/qotoolbox in the following instructions.
+
+2. There are three programmes for numerical integration in the directories
+    unixsrc/solvemc
+    unixsrc/solvesde
+    unixsrc/stochsim
+
+   If /home/mydir/bin is a directory on the path, go to each of the source
+   directories in turn and compile all the C files there, as follows:
+
+    cd /home/mydir/qotoolbox/unixsrc/solvemc
+    gcc -o /home/mydir/bin/solvemc *.c -lm
+
+    cd /home/mydir/qotoolbox/unixsrc/solvesde
+    gcc -o /home/mydir/bin/solvesde *.c -lm
+
+    cd /home/mydir/qotoolbox/unixsrc/stochsim
+    gcc -o /home/mydir/bin/stochsim *.c -lm
+
+3. Start Matlab and append the toolbox directory and the examples subdirectory
+    to the Matlab path. e.g.,
+
+    >> addpath('/home/mydir/qotoolbox');
+    >> addpath('/home/mydir/qotoolbox/examples');
+   
+   If you want the toolbox to be available each time Matlab is started, these
+    lines should be in the user's or in the system's startup file 
+    $MATLABDIR/toolbox/local/pathdef.m
+
+4. Documentation is in the file doc/qouserguide.pdf
+
+5. Try out the demonstration files by going into some working directory and
+    entering
+
+    >> qdemos
+
+Please contact me (s.tan@auckland.ac.nz) if you have any problems with the
+installation procedure.
+
+ Sze Tan
+

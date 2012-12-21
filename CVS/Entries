@@ -1,0 +1,64 @@
+/ACKNOWLEDGEMENTS/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/CHANGELOG/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/COPYING/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/Contents.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/Install/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/basis.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/clebsch.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/clread.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/cnot.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/create.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/destroy.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/dos2unix.py/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/eszero.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/eulersolve.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/expread.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/fn.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/fredkin.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/fszero.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/gettraj.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/hyperf.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/identity.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/jmat.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/mc2file.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/mccorr.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/mccorr2file.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/mcsolve.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/murelf.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/murelj.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/ode2file.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/odesolve.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/orbital.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/phasemap.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/phread.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/probcorr3.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/qdisp.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/qgate.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/qoread.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/qstate.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/rotation.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/scalar.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sde2file.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sdesolve.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sigmam.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sigmap.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sigmax.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sigmay.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sigmaz.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sixj.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/snot.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/sphereplot.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/success.qo/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/threej.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/toffoli.m/1.1.1.1/Fri Nov 23 02:40:54 2001//
+/unix2dos.py/1.1.1.1/Fri Nov 23 02:40:54 2001//
+D/@eseries////
+D/@fseries////
+D/@qo////
+D/@qobase////
+D/bin////
+D/doc////
+D/examples////
+D/private////
+D/src////
+D/unixsrc////

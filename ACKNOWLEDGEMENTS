@@ -1,0 +1,19 @@
+This toolbox was started during a period of sabbatical leave early in 1996 at Caltech in
+Jeff Kimble's group. I thank Jeff and his group for their hospitality and for suggesting the
+problems which motivated this undertaking. Since then, several colleagues have helped in
+testing preliminary versions of the code and refining the design, notably Andrew Doherty and 
+Michael Dunstan. Since the code is still very much under development, I would be grateful to 
+receive reports of errors and problems or any other suggestions.
+
+I hope that this toolbox will be expanded over time to include data structures and routines
+which are useful in different areas such as quantum information theory, atomic optics and 
+tomographic reconstruction. If you wish to develop or contribute routines that you would be
+willing to release under the terms of the Gnu General Public License, I would be pleased to
+collect them for ease of distribution.
+
+Thanks to Eric Hsu (NIST) and to Herbert Crepaz (U. Innsbruck) for helpful corrections to some
+of the routines.
+
+Sze Tan
+s.tan@auckland.ac.nz
+

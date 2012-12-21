@@ -1,0 +1,42 @@
+Change log for the quantum optics toolbox
+=========================================
+
+Version 0.15, 20-Aug-02
+-----------------------
+1. Added calculation of superoperator adjoints
+2. Added routines for truncating and permuting Hilbert spaces
+3. Corrections to quantum computation routines and hyperf.m routine
+
+Version 0.14, 28-Sep-99
+-----------------------
+1. Changes for Matlab 5.3 interpretation of subscripting.
+2. Allow user to specify options for differential equation solver.
+
+Version 0.13, 10-Mar-99
+-----------------------
+1. Quantum Computation routines.
+
+Version 0.12, 03-Feb-99
+-----------------------
+1. Matrix operations (* / \ ^) between a single member quantum array object 
+   and a double matrix now return a quantum array object of size equal to 
+   the double matrix. The operation takes place between the quantum object
+   and each element of the matrix, and is placed in the corresponding member
+   of the result. e.g. destroy(4)*linspace(0,1,10) now returns a ten member
+   array of quantum objects.
+   
+
+Version 0.11, 26-Jan-99
+-----------------------
+1. External solver calling routines (mcsolve, odesolve, sdesolve and 
+   eulersolve) modified to allow user interrupts under Unix to stop
+   the external programme.
+2. eseries/estidy and fseries/fstidy modified to work aroung a bug 
+   in the max(array,[],1) function for Matlab 5.1 when array is 
+   sparse.
+3. Extra functionality added to fseries to allow conjugate transpose,
+   spre and spost of function series
+4. fseries/mtimes modified to allow multiplication of a function series
+   and a single member quantum object in either order.
+
+

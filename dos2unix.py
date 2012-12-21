@@ -1,0 +1,46 @@
+import sys, glob, string
+
+def dos2unix(fmask):
+   flist = glob.glob(fmask);
+   for fname in flist:
+      fp = open(fname,"rb")
+      text = fp.read()
+      fp.close()
+      text = string.replace(text,'\015\012','\012')
+      fp = open(fname,"wb")
+      fp.write(text)
+      fp.close()
+   
+
+dos2unix("*.m")
+dos2unix("ACKNOWLEDGEMENTS")
+dos2unix("CHANGELOG")
+dos2unix("Copying")
+dos2unix("bin/*.bat")
+dos2unix("private/*.m")
+dos2unix("@eseries/*.m")
+dos2unix("@eseries/private/*.m")
+dos2unix("@fseries/*.m")
+dos2unix("@fseries/private/*.m")
+dos2unix("@qo/*.m")
+dos2unix("@qo/private/*.m")
+dos2unix("@qobase/*.m")
+dos2unix("@qobase/private/*.m")
+dos2unix("examples/*.m")
+dos2unix("src/solvemc/*.c")
+dos2unix("src/solvemc/*.h")
+dos2unix("src/solvesde/*.c")
+dos2unix("src/solvesde/*.h")
+dos2unix("src/stochsim/*.c")
+dos2unix("src/stochsim/*.h")
+dos2unix("src/mccorr/*.c")
+dos2unix("src/mccorr/*.h")
+dos2unix("unixsrc/solvemc/*.c")
+dos2unix("unixsrc/solvemc/*.h")
+dos2unix("unixsrc/solvesde/*.c")
+dos2unix("unixsrc/solvesde/*.h")
+dos2unix("unixsrc/stochsim/*.c")
+dos2unix("unixsrc/stochsim/*.h")
+dos2unix("unixsrc/mccorr/*.c")
+dos2unix("unixsrc/mccorr/*.h")
+
